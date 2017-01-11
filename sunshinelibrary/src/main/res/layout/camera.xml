@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear_cansle"
+        android:layout_margin="5dp"
+        android:background="@drawable/pet_tab_foucs_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_xcxz"
+            style="@style/textView_lanse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="相册选择" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/text_xjpz"
+            style="@style/textView_lanse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="相机拍摄" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_cansle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/pet_tab_foucs_bg"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <TextView
+            android:id="@+id/text_cancel"
+            style="@style/textView_lanse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+    </LinearLayout>
+
+</RelativeLayout>

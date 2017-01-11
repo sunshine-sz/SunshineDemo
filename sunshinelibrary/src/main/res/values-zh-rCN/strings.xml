@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="Mine_input_nickName_tip">请输入昵称</string>
+    <string name="Mine_nickName_wrong">昵称应该为4-15个字符,2-7个汉字,不能是邮箱和手机号</string>
+</resources>

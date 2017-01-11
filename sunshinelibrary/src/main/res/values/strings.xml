@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="Mine_input_nickName_tip">Type your nickname</string>
+    <string name="Mine_nickName_wrong">The user name can’t be empty</string>
+</resources>

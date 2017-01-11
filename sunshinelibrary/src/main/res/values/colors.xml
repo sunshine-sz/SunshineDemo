@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F3F6F9</color>
+    <color name="colorPrimaryDark">#F3F6F9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="et_bg">#007aff</color>
+    <color name="text_black_color">#333333</color>
+    <color name="line">#808382</color>
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="title_color">#03cfdc</color>
+    <color name="radio_text">#959595</color>
+    <color name="text_car_info">#3e3a39</color>
+    <color name="car_info_line">#c2c2c2</color>
+    <color name="seek_bg">#b5b6b7</color>
+    <color name="dialog_down">#76dde7</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">#c2c2c2</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+
+</resources>

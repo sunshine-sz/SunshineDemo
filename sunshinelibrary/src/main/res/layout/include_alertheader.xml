@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loAlertHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAlertTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginBottom_alert_msg"
+        android:gravity="center"
+        android:textColor="@color/text_black_color"
+        android:textSize="@dimen/textSize_alert_title" />
+
+    <TextView
+        android:id="@+id/tvAlertMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/marginBottom_alert_msg"
+        android:paddingRight="@dimen/marginBottom_alert_msg"
+        android:layout_marginTop="@dimen/marginBottom_alert_msg"
+        android:layout_marginBottom="@dimen/marginBottom_alert_msg"
+        android:textColor="@color/text_black_color"
+        android:gravity="center"
+        android:textSize="@dimen/textSize_alert_msg" />
+</LinearLayout>
